@@ -16,15 +16,15 @@ This library is designed to enabling developers to handle errors in a more struc
 ResultTS can be installed using npm:
 
 ```bash
-npm install result-ts
+npm install @eyadrealhim/result-ts
 ```
 
 ## Usage
 
-Import the `Result` type and relevant functions from the `result-ts` package:
+Import the `Result` type and relevant functions from the `@eyadrealhim/result-ts` package:
 
 ```typescript
-import { Result, success, failure } from "result-ts";
+import { Result, success, failure } from "@eyadrealhim/result-ts";
 ```
 
 ### Creating Results

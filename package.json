@@ -1,0 +1,26 @@
+{
+  "name": "result-ts",
+  "version": "1.0.0",
+  "description": "later.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build:release": "tsup ./src/index.ts --format cjs,esm --dts",
+    "build:lint": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EyadRealHim/result-ts.git"
+  },
+  "author": "EyadRealHim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EyadRealHim/result-ts/issues"
+  },
+  "homepage": "https://github.com/EyadRealHim/result-ts#readme",
+  "devDependencies": {
+    "tsup": "^7.1.0",
+    "typescript": "^5.1.6"
+  }
+}

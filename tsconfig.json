@@ -1,0 +1,25 @@
+{
+  "exclude": ["node_modules", "dist"],
+  "include": ["src/"],
+
+  "compilerOptions": {
+    "noPropertyAccessFromIndexSignature": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictPropertyInitialization": true,
+    "noUncheckedIndexedAccess": true,
+    "strictFunctionTypes": true,
+    "noUnusedParameters": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": true,
+    "alwaysStrict": true,
+    "module": "CommonJS",
+    "target": "ES2016",
+    "strict": true,
+    "noEmit": true
+  }
+}

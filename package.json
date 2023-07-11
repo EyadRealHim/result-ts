@@ -22,5 +22,11 @@
   "devDependencies": {
     "typescript": "^5.1.6",
     "tsup": "^7.1.0"
-  }
+  },
+  "keywords": [
+    "result-ts",
+    "result",
+    "error-handling",
+    "error-management"
+  ]
 }

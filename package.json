@@ -1,13 +1,13 @@
 {
   "name": "result-ts",
   "version": "1.0.0",
-  "description": "later.",
+  "description": "ResultTS is a simple yet powerful implementation of the Result Type. It provides a Result type that is used for returning and propagating errors in a convenient and efficient manner.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
     "build:release": "tsup ./src/index.ts --format cjs,esm --dts",
-    "build:lint": "tsc -w"
+    "build:lint": "tsc"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/EyadRealHim/result-ts#readme",
   "devDependencies": {
-    "tsup": "^7.1.0",
-    "typescript": "^5.1.6"
+    "typescript": "^5.1.6",
+    "tsup": "^7.1.0"
   }
 }

@@ -1,6 +1,6 @@
 {
   "exclude": ["node_modules", "dist"],
-  "include": ["src/"],
+  "include": ["src/", "examples/"],
 
   "compilerOptions": {
     "noPropertyAccessFromIndexSignature": true,

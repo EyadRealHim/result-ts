@@ -1,8 +1,8 @@
-# ResultTS
+# Tiny Result
 
 ## Overview
 
-ResultTS is a simple yet powerful implementation of the Result Type. It provides a Result type that is used for returning and propagating errors in a convenient and efficient manner.
+Tiny Result is a simple yet powerful implementation of the Result Type. It provides a Result type that is used for returning and propagating errors in a convenient and efficient manner.
 
 This library is designed to enabling developers to handle errors in a more structured and expressive way.
 
@@ -13,18 +13,18 @@ This library is designed to enabling developers to handle errors in a more struc
 
 ## Installation
 
-ResultTS can be installed using npm:
+Tiny Result can be installed using npm:
 
 ```bash
-npm install @eyadrealhim/result-ts
+npm install tiny-result
 ```
 
 ## Usage
 
-Import the `Result` type and relevant functions from the `@eyadrealhim/result-ts` package:
+Import the `Result` type and relevant functions from the `tiny-result` package:
 
 ```typescript
-import { Result, success, failure } from "@eyadrealhim/result-ts";
+import { Result, success, failure } from "tiny-result";
 ```
 
 ### Creating Results
@@ -63,10 +63,10 @@ console.log(transformedResult.unwrap()); // 84
 
 ## Contributing
 
-Contributions are welcome! If you find a bug, have a feature request, or want to suggest improvements, please open an issue on the [GitHub repository](https://github.com/EyadRealHim/result-ts).
+Contributions are welcome! If you find a bug, have a feature request, or want to suggest improvements, please open an issue on the [GitHub repository](https://github.com/EyadRealHim/tiny-result).
 
 If you want to contribute code, please fork the repository and submit a pull request with your changes. Make sure to follow the coding conventions and include tests for any new functionality.
 
 ## License
 
-ResultTS is open-source software licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute it as per the terms of the license.
+Tiny Result is open-source software licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute it as per the terms of the license.

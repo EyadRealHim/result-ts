@@ -1,7 +1,7 @@
 {
-  "name": "@eyadrealhim/result-ts",
-  "version": "1.0.2",
-  "description": "ResultTS is a simple yet powerful implementation of the Result Type. It provides a Result type that is used for returning and propagating errors in a convenient and efficient manner.",
+  "name": "tiny-result",
+  "version": "1.0.0",
+  "description": "Tiny Result is a simple yet powerful implementation of the Result Type. It provides a Result type that is used for returning and propagating errors in a convenient and efficient manner.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -11,20 +11,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EyadRealHim/result-ts.git"
+    "url": "git+https://github.com/EyadRealHim/tiny-result.git"
   },
   "author": "EyadRealHim",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/EyadRealHim/result-ts/issues"
+    "url": "https://github.com/EyadRealHim/tiny-result/issues"
   },
-  "homepage": "https://github.com/EyadRealHim/result-ts#readme",
+  "homepage": "https://github.com/EyadRealHim/tiny-result#readme",
   "devDependencies": {
     "typescript": "^5.1.6",
     "tsup": "^7.1.0"
   },
   "keywords": [
-    "result-ts",
+    "tiny-result",
     "result",
     "error-handling",
     "error-management"

@@ -6,6 +6,9 @@ Tiny Result is a simple yet powerful implementation of the Result Type. It provi
 
 This library is designed to enabling developers to handle errors in a more structured and expressive way.
 
+[![npm version](https://badge.fury.io/js/tiny-result.svg)](https://badge.fury.io/js/tiny-result)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 ## Features
 
 - `Result<TData, TError>` type: Represents the result of an operation that can either return a value of type `TData` or an error of type `TError`.
@@ -60,6 +63,10 @@ const transformedResult = result.map((value) => value * 2);
 
 console.log(transformedResult.unwrap()); // 84
 ```
+
+## Examples
+
+This repository includes examples showcasing the usage of the `tiny-result` package. You can find these examples in the [examples](examples) folder.
 
 ## Contributing
 
